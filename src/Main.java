@@ -29,6 +29,9 @@ public class Main {
         Ticket1.mostrar_info();
 
 
+
+        System.out.println("\nObjetos Vacios");
+        System.out.println("\n1.");
         /*Objeto1*/
         TICKETS_VIP t1=new TICKETS_VIP();
         t1.setNombre("Tadeo Cadena");
@@ -42,7 +45,7 @@ public class Main {
         t1.setFecha_salida(hoy);
         t1.mostrar_info();
 
-
+        System.out.println("\n2.");
         /*Objeto2*/
         TICKETS_NOR t2=new TICKETS_NOR();
         t2.setNombre("Adrian Herrera");
@@ -55,7 +58,7 @@ public class Main {
         t2.setFecha_salida(hoy);
         t2.mostrar_info();
 
-        /*Objeto3*/
+        System.out.println("\n3.");
         TICKETS_NOR t3=new TICKETS_NOR();
         t3.setNombre("Madeline Sierra");
         t3.setCedula(175986324);
@@ -66,6 +69,7 @@ public class Main {
         t3.setFecha_compra(hoy);
         t3.setFecha_salida(hoy);
         t3.mostrar_info();
+        System.out.println("\n4.");
 
         /*Objeto4*/
         TICKETS_VIP t4=new TICKETS_VIP();
@@ -80,6 +84,7 @@ public class Main {
         t4.setFecha_salida(hoy);
         t4.mostrar_info();
 
+        System.out.println("\n5.");
         /*Objeto5*/
         TICKETS_VIP t5=new TICKETS_VIP();
         t5.setNombre("Rosa Herrera");
