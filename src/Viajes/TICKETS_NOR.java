@@ -10,8 +10,8 @@ public class TICKETS_NOR  extends Servicio_nomal{
 
     }
 
-    public TICKETS_NOR(String nombre, int cedula, int ruta, Date fecha_salida, boolean servicio_vip, String asiento, double espacio_maleta, boolean maleta_extra, String codigo, Date fecha_compra) {
-        super(nombre, cedula, ruta, fecha_salida, servicio_vip, asiento, espacio_maleta, maleta_extra);
+    public TICKETS_NOR(String nombre, int cedula, int ruta, Date fecha_salida,  String asiento, double espacio_maleta, boolean maleta_extra, String codigo, Date fecha_compra) {
+        super(nombre, cedula, ruta, fecha_salida, false, asiento, espacio_maleta, maleta_extra);
         this.codigo = codigo;
         this.fecha_compra = fecha_compra;
     }

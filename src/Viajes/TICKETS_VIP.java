@@ -10,8 +10,8 @@ public class TICKETS_VIP extends Servicio_vip {
 
     }
 
-    public TICKETS_VIP(String nombre, int cedula, int ruta, Date fecha_salida, boolean servicio_vip, double espacio_maleta, boolean maleta_extra2, String adicionales, String codigo, Date fecha_compra) {
-        super(nombre, cedula, ruta, fecha_salida, servicio_vip, espacio_maleta, maleta_extra2, adicionales);
+    public TICKETS_VIP(String nombre, int cedula, int ruta, Date fecha_salida,  double espacio_maleta, boolean maleta_extra2, String adicionales, String codigo, Date fecha_compra) {
+        super(nombre, cedula, ruta, fecha_salida, true, espacio_maleta, maleta_extra2, adicionales);
         this.codigo = codigo;
         this.fecha_compra = fecha_compra;
     }
