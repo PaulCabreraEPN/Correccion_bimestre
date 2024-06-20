@@ -28,8 +28,12 @@ public class Pasajero {
         this.cedula = cedula;
     }
 
+    public double calcular_costo(int ruta){
+        return 0;
+    };
+
     public void mostrar_info() {
         System.out.println("Nombre: " + nombre);
-        System.out.println("Cedula: " + cedula);
+        System.out.println("Cedula: " + cedula );
     }
 }
